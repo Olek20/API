@@ -1,0 +1,64 @@
+h1{
+  background: linear-gradient(to right, rgb(238, 10, 238) 0%, rgb(0, 193, 252) 100%);
+  background-clip: text;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-size: cover;
+  background-image: url('tlo.jpg');
+}
+
+#main{
+  text-align: center;
+}
+
+label
+{
+  font-size: larger;
+  font-weight: bold;
+  font-family:  'Lucida Sans Regular';
+  color: rgb(255, 0, 255);
+}
+#query{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+input {
+  background-image: url('input.jpg');
+  background-size: cover;
+  font-size: large;
+  width: 60%;
+  height: 100px;
+  box-shadow: 1px 1px 1px rgb(248, 0, 174);
+  resize: vertical;
+  border-radius: 10px;
+  margin: 10px;
+  color: rgb(255, 0, 255);
+}
+
+button{
+  background-color: rgb(255, 0, 255);
+  border-radius: 5px;
+  color: aqua;
+  font-family: Arial;
+  width: 100px;
+  height: 50px;
+  font-size: x-large;
+}
+
+#result
+{
+  padding-top: 100px;
+  width: 50%;
+  height: 100%;
+  float: left;
+  color: rgb(0, 162, 255);
+  font-family: Arial;
+  font-size:xx-large;
+}
